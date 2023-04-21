@@ -14,36 +14,6 @@
     font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
       "Helvetica Neue", sans-serif;
   }
-
-  /* section {
-    background-color: #F0EFED;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-  } */
-
-  /* section .heading h2 {
-    padding-top: 1rem;
-    font-weight: 700;
-  }
-
-  section .heading h5 .fa-sharp {
-    color: black;
-    font-size: .8rem;
-    padding-right: .2rem;
-  }
-
- section .iframe_wrapper {
-    max-width: 1300px;
-    margin: 20px auto;
-    width: 90%;
-    background-color: #000000;
-    padding: 60px 0px;
-    text-align: center;
-  }
- section iframe {
-    width: 90%;
-  } */
   
   @media (min-width: 300px) {
     iframe {
@@ -666,7 +636,9 @@
     }
     section {
       background-color: white;
+      width: 100%;
     }
+    
   }
   
   @media (max-width: 750px) {
@@ -678,6 +650,9 @@
     }
     iframe {
       margin: 30px 0;
+    }
+    section {
+      width: 100%;
     }
   }
 
@@ -697,5 +672,8 @@
     section {
       background-color: white;
       margin: 1rem 0rem;
+    }
+    section {
+      width: 100%;
     }
   }

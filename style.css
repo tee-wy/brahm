@@ -189,20 +189,6 @@
   }  
   
   /* =========== BUTTON 1 END ========= */
-   @-moz-keyframes main {
-    0% {
-      transform: scale(1);
-      visibility: visible;
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  
-    100% {
-      transform: scale(1.1);
-    } 
-  } 
   
   ::-moz-selection {
     color: #fff;
@@ -235,44 +221,6 @@
     max-width: 900px;
     margin: auto;
     width: 80%;
-  }
-  
-  /* =================== VSL MEDIA QUERY ================== */
-  @media screen and (min-width: 700px) {
-    .article button {
-      margin: 40px auto;
-    }
-  
-    .article button a {
-      color: white;
-      padding: 40px;
-      display: block;
-      font-size: 30px;
-      width: 100%;
-      font-weight: 700;
-    }
-  
-    .iframe_wrapper {
-      border: 5px solid red;
-      height: 80vh;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-  
-    .iframe_wrapper {
-      max-width: 1200px;
-      margin: 20px auto;
-      width: 100%;
-      background-color: #000000;
-      padding: 30px 10px;
-    }
-    iframe {
-      height: 100%;
-    }
-  
-    section .heading h1 {
-      font-size: 3em;
-    }
   }
   
   section .heading .heading-vid {
@@ -310,12 +258,6 @@
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     line-height: 1.4;
     text-align: center;
-  }
-
-  @media screen and (min-width: 700px) {
-    /* section .container .welcome .welcome-text .div {
-      width: 70%;
-    } */
   }
 
   section .container .welcome .welcome-text .div h3 {
@@ -382,280 +324,12 @@
     margin: 10px auto 0;
   }
   
-  /* img {
-    width: 100%;
-  } */
-
-  /* #gallery {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
-  }
-
-  .content {
-    width: 25%;
-    margin: 15px;
-    box-sizing: border-box;
-    float: left;
-    text-align: center;
-    border-radius: 20px;
-    cursor: 10px;
-    box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-    transition: 0.4s;
-    background-color: #ffffff;
-  }
-
-  
-  .content p {
-    color: #0b0b0b;
-  }
-
-  .content .cash .digital p {
-    font-size: 1.5rem;
-    color: #0b0b0b;
-  }
-  #order-form {
-    width: 100%;
-    text-align: center;
-  }
-  
-  .content:hover {
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    transform: translate(0px, -8px);
-  }
-
-  .content img {
-    width: 300px;
-    height: 250px;
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    margin-top: 4px;
-  }
-
-  #gallery ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-  
- #gallery .content p i, .fa {
-    font-size: 15px;
-   cursor: pointer;
-  }
-
-  #gallery .content {
-    text-transform: uppercase;
-  }
-
-  .checked {
-    color: #ff9f43;
-  }
-
-  .fa:hover {
-    transform: scale(1.3);
-    transition: 0.6s;
-  }
-
-  #gallery .content button {
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
-    width: 100%;
-    padding: 15px;
-    border: 0;
-    outline: none;
-    cursor: pointer;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-
-  .card2 {
-    background: #0b0b0b;
-  }
-
-  #order-form {
+  img {
     width: 100%;
   }
 
-  #gallery .content .digital {
-    border-top: 2px solid rgb(196, 193, 193);
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  #gallery .content .digital .cash p {
-    font-size: 13px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  #gallery .content .digital .button {
-    background-color: #ff9f43;
-    border-radius: 25px;
-    color: #000;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 7px 2px;
-    cursor: pointer;
-    width: 60%;
-  }
-
-  #gallery .digital p {
-    margin-top: 7px;
-    margin-bottom: 7px;
-  }
-  .gallery .content .white {
-    border-bottom: 2px solid white;
-    padding: 16px 16px;
-    margin-bottom: 7px;
-  }
-
-  #gallery  .six-months .digital .cash p {
-    color: black;
-  }
-
-  #gallery  .six-months .digital p {
-    color: #ff9f43;
-  }
-
-  #gallery .six-months .h4 {
-   text-transform: uppercase;
-  }
-
-  #gallery .six-months p {
-    text-transform: uppercase;
-   }
-
-  #gallery .six-months .card2 {
-    padding: 25px 0;
-  }
-
-  #gallery .content .prices {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-  }
-  
-  #gallery .prices .price {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  #gallery .content .prices .price .big {
-    font-size: 40px;
-    font-weight: 900;
-    margin-top: 6px;
-  } 
-
-  #gallery .content .prices .price .small {
-    font-size: 14px;
-    font-weight: bold;
-    padding-left: 3px;
-    margin-top: 10px;
-  } 
-
-  #gallery .content .total-price {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #gallery .content .total-price  .strike-out {
-    padding-right: 4px;
-    font-size: 20px;
-  }
-
-  #gallery .content .total-price  .original-price {
-    font-size: 30px;
-    font-weight: 900;
-  }
-
-  @keyframes main {
-    0% {
-      transform: scale(1);
-      visibility: visible;
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  
-    100% {
-      transform: scale(1.1);
-    }
-  }
-  
-  @-webkit-keyframes main {
-    0% {
-      transform: scale(1);
-      visibility: visible;
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  
-    100% {
-      transform: scale(1.1);
-    }
-  }
-  
-  @-o-keyframes main {
-    0% {
-      transform: scale(1);
-      visibility: visible;
-    }
-  
-    50% {
-      transform: scale(1);
-    }
-  
-    100% {
-      transform: scale(1.1);
-    }
-  }  */
-  
-  /* =========== MAIN TRANSITION ========= */
-  
-   /* main {
-    margin: 20px auto;
-    width: 100%;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    visibility: hidden;
-  
-    animation-name: main;
-    animation-duration: 20ms;
-    animation-iteration-count: 0;
-    animation-direction: alternate;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-    animation-delay: 300000ms;
-  } */
-  /* =========== MAIN END========= */
-  
-  /* @media (max-width: 1000px) {
-    .content {
-      width: 45%;
-    }
+  @media (max-width: 1000px) {
+    
     .container h1 {
       text-align: center;
     }
@@ -664,6 +338,7 @@
     }
     section {
       background-color: white;
+      width: 100%;
     }
   }
   
@@ -677,23 +352,46 @@
     iframe {
       margin: 30px 0;
     }
+    section {
+      background-color: white;
+      margin: 1rem 0rem;
+      width: 100%;
+    }
   }
 
   @media (max-width: 640px) {
     .container {
       width: 95%;
     }
-    li {
-      line-height: 35px;
-    }
-    h1 {
-      font-size: 24px;
-    }
-    h2 {
-      font-size: 20px;
-    }
+
     section {
       background-color: white;
       margin: 1rem 0rem;
+      width: 100%;
     }
-  } */
+  }
+
+  /* === VSL MEDIA QUERY === */
+  @media screen and (min-width: 700px) {
+    .iframe_wrapper {
+      border: 5px solid red;
+      height: 80vh;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+  
+    .iframe_wrapper {
+      max-width: 1200px;
+      margin: 20px auto;
+      width: 100%;
+      background-color: #000000;
+      padding: 30px 10px;
+    }
+    iframe {
+      height: 100%;
+    }
+  
+    section .heading h1 {
+      font-size: 3em;
+    }
+  }
